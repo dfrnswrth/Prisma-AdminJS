@@ -1,0 +1,27 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch --clear-screen=false src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adminjs/koa": "^4.0.1",
+    "@adminjs/prisma": "^4.0.0",
+    "@koa/router": "^12.0.0",
+    "@types/koa": "^2.13.6",
+    "adminjs": "^7.0.2",
+    "database": "workspace:*",
+    "koa": "^2.14.2",
+    "koa2-formidable": "^1.0.3",
+    "tsconfig": "workspace:*",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  }
+}

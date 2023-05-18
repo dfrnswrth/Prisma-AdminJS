@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "declaration": false,
+        "declarationMap": false,
+        "incremental": true,
+        "jsx": "preserve",
+        "lib": ["esnext"],
+        "module": "esnext",
+        "moduleResolution": "nodenext",
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "target": "ESNext",
+        "verbatimModuleSyntax": true
+    }
+}
